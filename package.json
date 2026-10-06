@@ -1,0 +1,35 @@
+{
+  "name": "global-revenue-web",
+  "description": "Global Revenue dashboard as a static public web page. Reads CSV files in the browser; notes and scenarios live in localStorage.",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@bicharts/chart-host": "^0.6.66",
+    "@tailwindcss/vite": "^4.3.0",
+    "d3": "^7.9.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-error-boundary": "^6.1.2",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react-swc": "^4.3.1",
+    "jsdom": "^29.1.1",
+    "typescript": "~5.7.2",
+    "vite": "^8.0.16",
+    "vitest": "^4.1.11"
+  }
+}
